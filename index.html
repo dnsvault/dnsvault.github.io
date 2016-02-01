@@ -30,9 +30,23 @@
             height: 100%;
         }
         
-    </style>
-	<body id="particles-js" class="scrollspy">
+        canvas {
+	  display: block;
+	  vertical-align: bottom;
+	}
+	
+	#particles-js {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: 50% 50%;
+	}
         
+    </style>
+	<body id="top" class="scrollspy">
+        <div id="particles-js"></div>
         <!-- Pre Loader -->
         <div id="loader-wrapper">
             <div id="loader"></div>
