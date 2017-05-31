@@ -1,5 +1,5 @@
 ---
-title: Product
+title: Products
 layout: page
 ---
 
