@@ -163,8 +163,6 @@ GEM
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
-    materialize-sass (0.98.2)
-      sass (~> 3.3)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
     minima (2.1.1)
@@ -222,7 +220,6 @@ DEPENDENCIES
   github-pages
   jekyll-admin
   jekyll-feed (~> 0.6)
-  materialize-sass
   minima (~> 2.0)
   tzinfo-data
 
