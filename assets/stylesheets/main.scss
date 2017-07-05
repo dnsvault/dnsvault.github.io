@@ -1,0 +1,39 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@font-face {
+    font-family: 'square721_btroman';
+    src: url('/assets/fonts/sqr721n-webfont.eot');
+    src: url('/assets/fonts/sqr721n-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/sqr721n-webfont.woff') format('woff'),
+         url('/assets/fonts/sqr721n-webfont.ttf') format('truetype'),
+         url('/assets/fonts/sqr721n-webfont.svg#square721_btroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import "bootstrap";
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 5rem;
+  /* Margin bottom by footer height */
+  margin-bottom: 10rem;
+  font-family: 'square721_btroman';
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 10rem;
+  background-color: #f5f5f5;
+}
