@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  {% assign default_paths = site.pages | map: "path" %}
+  {% assign default_paths = site.pages | sort: "order" | map: "path" %}
   {% assign page_paths = site.header_pages | default: default_paths %}
   <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
