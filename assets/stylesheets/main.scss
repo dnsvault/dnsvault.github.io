@@ -51,10 +51,17 @@ body {
 
 
 .footer {
+  padding-top: 20px;
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 10rem;
   background-color: #f5f5f5;
+}
+.album {
+    min-height: 50rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
 }
