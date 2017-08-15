@@ -1,9 +1,8 @@
 ---
 title: Clients
 layout: page
-permalink: /clients/
+permalink: "/clients/"
 published: true
 order: 5
 ---
 
-this should be product pages
