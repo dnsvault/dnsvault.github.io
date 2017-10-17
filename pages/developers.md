@@ -6,4 +6,8 @@ published: true
 order: 11
 ---
 
-[API References](https://dnsvault.github.io/docs){:target="_blank"}
+<div class="container">
+
+  <a href="https://dnsvault.github.io/docs" target="_blank">API References</a>
+
+</div>

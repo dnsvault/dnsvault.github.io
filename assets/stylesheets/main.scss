@@ -24,10 +24,11 @@ html {
 }
 
 body {
-  padding-top: 5rem;
+  padding-top: 3.5rem;
   /* Margin bottom by footer height */
   margin-bottom: 10rem;
   font-family: 'square721_btroman';
+  background-color: #FAFAFA;
 }
 
 .jumbotron {
@@ -49,6 +50,21 @@ body {
   max-width: 40rem;
 }
 
+.navbar{
+  max-height: 3.5rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+header.post-header, header.page-header {
+    background: #fff;
+    height: 7rem;
+    padding: 35px 40px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 7px rgba(35, 35, 35, 0.12);
+}
 
 .footer {
   padding-top: 20px;
@@ -65,3 +81,105 @@ body {
     padding-bottom: 3rem;
     background-color: #f7f7f7;
 }
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+/* flip image in about
+----------------------------*/
+.pic-container{
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.pic{
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+
+.pic-container.pic-xs{
+  width: 50px;
+  height: 50px;
+}
+
+.pic-container.pic-small{
+  width: 70px;
+  height: 70px;
+}
+
+.pic-container.pic-medium{
+  width: 150px;
+  height: 150px;
+}
+
+.pic-container.pic-large{
+  width: 250px;
+  height: 250px;
+}
+
+
+.pic-container.pic-xl{
+  width: 350px;
+  height: 350px;
+}
+
+.pic-container.pic-circle{
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+}
+
+.pic-overlay{
+  background-color: #ccc;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.pic-container:hover .pic-overlay{
+  top: -100%;
+}
+
+.pic-overlay a{
+  display: block;
+  padding: 10px;
+}
+
+.pic-xs .pic-overlay a{
+  padding: 5px;
+}
+
+.pic-overlay .fa-window-close-o{
+  color: red;
+}
+
+.pic-medium .pic-overlay a i{
+  font-size: 20px;
+}
+
+.pic-large .pic-overlay a i{
+  font-size: 35px;
+}
+
+.pic-xl .pic-overlay a i{
+  font-size: 45px;
+}
+
+.img-circle {
+  -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;
+}
+

@@ -1,9 +1,7 @@
 ---
 title: Blogs
-layout: home
+layout: blog
 permalink: /blogs/
 published: true
 order: 9
 ---
-
-blogs
