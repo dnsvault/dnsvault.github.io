@@ -9,7 +9,7 @@ order: 10
   <div class="card-deck">
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/amir.jpg" alt="">
+        <img class="pic" src="/assets/images/about/amir.jpg" alt="">
         <div class="pic-overlay">
             <a href="" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -25,7 +25,7 @@ order: 10
     </div>
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/iman.jpg" alt="">
+        <img class="pic" src="/assets/images/about/iman.jpg" alt="">
         <div class="pic-overlay">
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -41,7 +41,7 @@ order: 10
     </div>
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/hasyrein.jpg" alt="">
+        <img class="pic" src="/assets/images/about/hasyrein.jpg" alt="">
         <div class="pic-overlay">
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -57,7 +57,7 @@ order: 10
     </div>
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/razi.jpg" alt="">
+        <img class="pic" src="/assets/images/about/razi.jpg" alt="">
         <div class="pic-overlay">
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -72,10 +72,11 @@ order: 10
       </div>
     </div>
   </div>
+  <br>
   <div class="card-deck">
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/khairi.jpg" alt="">
+        <img class="pic" src="/assets/images/about/khairi.jpg" alt="">
         <div class="pic-overlay">
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -91,7 +92,7 @@ order: 10
     </div>
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/yakob.png" alt="">
+        <img class="pic" src="/assets/images/about/yakob.png" alt="">
         <div class="pic-overlay">
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -107,7 +108,7 @@ order: 10
     </div>
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/fathi.jpg" alt="">
+        <img class="pic" src="/assets/images/about/fathi.jpg" alt="">
         <div class="pic-overlay">
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -123,7 +124,7 @@ order: 10
     </div>
     <div class="card" style="border: 0;">
       <div class="pic-container pic-medium pic-circle">
-        <img class="pic" src="/assets/images/anis.jpg" alt="">
+        <img class="pic" src="/assets/images/about/anis.jpg" alt="">
         <div class="pic-overlay">
             <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
             <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>

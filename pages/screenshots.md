@@ -15,28 +15,28 @@ order: 2
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block" src="/assets/images/screenshot0.png" alt="screenshot0" style="width: 75%;">
+        <img class="d-block" src="/assets/images/screenshots/screenshot0.png" alt="screenshot0" style="width: 75%;">
         <div class="carousel-caption d-none d-md-block">
           <h3 style="color: black;">Dashboard</h3>
           <p style="color: black;">Home page</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block" src="/assets/images/screenshot1.png" alt="screenshot1" style="width: 75%;">
+        <img class="d-block" src="/assets/images/screenshots/screenshot1.png" alt="screenshot1" style="width: 75%;">
         <div class="carousel-caption d-none d-md-block">
           <h3 style="color: black;">Streamline Management</h3>
           <p style="color: black;">With Built In Automations</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block" src="/assets/images/screenshot2.png" alt="screenshot2" style="width: 75%;">
+        <img class="d-block" src="/assets/images/screenshots/screenshot2.png" alt="screenshot2" style="width: 75%;">
         <div class="carousel-caption d-none d-md-block">
           <h3 style="color: black;">Report</h3>
           <p style="color: black;">Graph & Summary</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block" src="/assets/images/screenshot3.png" alt="screenshot3" style="width: 75%;">
+        <img class="d-block" src="/assets/images/screenshots/screenshot3.png" alt="screenshot3" style="width: 75%;">
         <div class="carousel-caption d-none d-md-block">
           <h3 style="color: black;">Settings</h3>
           <p style="color: black;">DNSVault settings pages</p>
