@@ -1,5 +1,7 @@
 ---
 title: About
+subtitle: Our Team
+lead: Meet DNSVault Team Members
 layout: page
 permalink: "/about/"
 published: true

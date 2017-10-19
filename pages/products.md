@@ -1,13 +1,16 @@
 ---
 title: Products
+subtitle: Product Overview
+lead: Meet DNSVault Product Families
 layout: page
 permalink: "/products/"
 published: true
 order: 1
 ---
-
-<h5>DNSVault is a DNS Appliance that have all the feature that we need to strengthen and protect our DNS. It was develop using the latest technology available today.</h5>
 <div class="container" style="margin-bottom: 250px;margin-top: 50px;">
+<h5>DNSVault is a DNS Appliance that have all the feature that we need to strengthen and protect our DNS. It was develop using the latest technology available today.</h5>
+
+<br>
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top img-thumbnail" data-src="holder.js/100px200?text=DNSVault 10R &bg=#212121&size=15" alt="100%x180" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">

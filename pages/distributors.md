@@ -1,5 +1,7 @@
 ---
 title: Distributors
+subtitle: Distributors
+lead: Our Family of Distributors and Resellers
 layout: page
 permalink: "/distributors/"
 published: true
@@ -64,7 +66,7 @@ order: 3
       </p>
     </div>
     <div class="card-footer bg-white">
-        <p style="font-size: 14px;">
+        <p>
         <i class="fa fa-briefcase"></i>
             03-55234445 <br>
         <i class="fa fa-envelope"></i>

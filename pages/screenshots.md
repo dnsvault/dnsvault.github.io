@@ -1,5 +1,7 @@
 ---
 title: Screenshots
+subtitle: Screenshot
+lead: DNSVault Screenshot
 layout: page
 permalink: "/screenshots/"
 published: true

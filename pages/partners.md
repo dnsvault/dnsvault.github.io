@@ -1,5 +1,7 @@
 ---
-title: Technology Partners
+title: Partners
+subtitle: Partners
+lead: Meet our partners
 layout: page
 permalink: "/partners/"
 published: true
@@ -9,46 +11,48 @@ order: 4
 
 <div class="container">
 
-  <div class="card-deck">
-    <div class="card">
-      <br>
-      <img class="card-img-top" src="http://cybersecurity.my/properties_v3/images/logo_csm.png" alt="csm" class="img-fluid w-50">
-      <div class="card-body">
-        <center><h4 class="card-title" style="font-size: 30px;"><a href="http://cybersecurity.my/" target="_blank">CyberSecurity Malaysia</a></h4></center>
-        <p class="card-text" style="font-size: 15px;">
-          CyberSecurity Malaysia, <br>
-          Level 5, Sapura@Mines, <br>
-          No. 7 Jalan Tasik, <br>
-          The Mines Resort City, <br>
-          43300 Seri Kembangan, Selangor Darul Ehsan, Malaysia.
-        </p>
-      </div>
-      <div class="card-body">
-        <p style="font-size: 12px;">
-          <i class="fa fa-briefcase"></i>
-              +603 - 8992 6888<br>
-          <i class="fa fa-envelope"></i>
-              fathi.kamil@cybersecurity.my
-        </p>
-      </div>
-   </div>
+<div class="card-deck">
+  <div class="card">
+    <br>
+        <img class="card-img-top" src="http://cybersecurity.my/properties_v3/images/logo_csm.png" alt="csm" class="img-fluid w-50">
+    <div class="card-body">
+      <center><h4 class="card-title" style="font-size: 30px;"><a href="http://cybersecurity.my/" target="_blank">CyberSecurity Malaysia</a></h4></center>
+      <p class="card-text" style="font-size: 15px;">
+        CyberSecurity Malaysia, <br>
+        Level 5, Sapura@Mines, <br>
+        No. 7 Jalan Tasik, <br>
+        The Mines Resort City, <br>
+        43300 Seri Kembangan, Selangor Darul Ehsan, Malaysia.
+      </p>
+    </div>
+<div class="card-footer bg-white">
+        <p>
+            <i class="fa fa-briefcase"></i>
+                +603 - 8992 6888<br>
+            <i class="fa fa-envelope"></i>
+                fathi.kamil@cybersecurity.my
+          </p>
+    </div>
+ </div>
 
-   <div class="card">
-      <br>
-      <img class="card-img-top" src="/assets/images/partners/rpzdb.png" alt="rpzdb" class="img-fluid w-50" >
-      <div class="card-body">
-        <center><h4 class="card-title" style="font-size: 30px;"><a href="http://www.rpzdb.com" target="_blank">RPZ Database</a></h4></center>
-        <p class="card-text" style="font-size: 15px;">
-          International Organization
-        </p>
-        <br><br><br><br>
-      </div>
-      <div class="card-body">
-        <p style="font-size: 12px;">
-          <i class="fa fa-envelope"></i>
-              hello@rpzdb.com
-        </p>
-      </div>
-   </div>
-  </div>
+<div class="card">
+    <br>
+        <img class="card-img-top" src="/assets/images/partners/rpzdb.png" alt="rpzdb" class="img-fluid w-50" >
+    <div class="card-body">
+      <center><h4 class="card-title" style="font-size: 30px;"><a href="http://www.rpzdb.com" target="_blank">RPZ Database</a></h4></center>
+      <p class="card-text" style="font-size: 15px;">
+        International Organization
+      </p>
+    </div>
+<div class="card-footer bg-white">
+        <p>
+        <br>
+        <i class="fa fa-envelope"></i>
+            hello@rpzdb.com
+      </p>
+    </div>
+ </div>
+</div>
+
+
 </div>

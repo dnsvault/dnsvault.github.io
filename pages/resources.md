@@ -1,5 +1,7 @@
 ---
 title: Resources
+subtitle: Resources
+lead: Downloads
 layout: page
 permalink: "/resources/"
 published: true

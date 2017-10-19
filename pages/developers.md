@@ -1,5 +1,7 @@
 ---
 title: Developers
+subtitle: Developers
+lead: 
 layout: page
 permalink: /developers/
 published: true
