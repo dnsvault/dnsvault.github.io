@@ -22,7 +22,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Amir Haris Ahmad</h5>
         <p class="card-text">Director</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> amir@dnsvault.net</small></p>
       </div>
     </div>
     <div class="card" style="border: 0;">
@@ -38,7 +37,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Muhammad Al-Iman</h5>
         <p class="card-text">Senior Product Engineer</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> iman@dnsvault.net</small></p>
       </div>
     </div>
     <div class="card" style="border: 0;">
@@ -54,7 +52,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Hasyrein Md. Haron</h5>
         <p class="card-text">Senior VP of Sales</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> hasyrein@dnsvault.net</small></p>
       </div>
     </div>
     <div class="card" style="border: 0;">
@@ -70,7 +67,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Muhammad Al-Razi</h5>
         <p class="card-text">DNSVault</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> razi@localhost.my</small></p>
       </div>
     </div>
   </div>
@@ -89,7 +85,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Mohd Khairi Mohd Adnan</h5>
         <p class="card-text">DNSVault</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> khairi@localhost.my</small></p>
       </div>
     </div>
     <div class="card" style="border: 0;">
@@ -105,7 +100,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Ahmad Ya'kob Abaidullah</h5>
         <p class="card-text">DNSVault</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> ahmad@localhost.my</small></p>
       </div>
     </div>
     <div class="card" style="border: 0;">
@@ -121,7 +115,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Fathi Abdul Rahim Abdullah</h5>
         <p class="card-text">App & Platform Engineer</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> fathi@dnsvault.net</small></p>
       </div>
     </div>
     <div class="card" style="border: 0;">
@@ -137,7 +130,6 @@ order: 10
       <div class="card-body" style="text-align: center;">
         <h5 class="card-title">Anis Soraya Mohd Zain</h5>
         <p class="card-text">DNSVault</p>
-        <p class="card-text"><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a><small class="text-muted"> anissoraya@localhost.my</small></p>
       </div>
     </div>
   </div>
