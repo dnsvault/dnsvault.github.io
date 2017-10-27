@@ -8,8 +8,6 @@ published: true
 order: 3
 ---
 
-<div class="container">
-
 <div class="card-deck">
   <div class="card">
         <img class="card-img-top" src="/assets/images/distributors/rszrixs.png" alt="rixs" class="img-fluid w-75">
@@ -94,6 +92,4 @@ order: 3
         <i class="fa fa-envelope" style="font-size: 14px;"></i>firdaus@rafatech.com.my
         </p>
   </div>
-</div>
-
 </div>

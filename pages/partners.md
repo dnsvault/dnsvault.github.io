@@ -8,9 +8,6 @@ published: true
 order: 4
 ---
 
-
-<div class="container">
-
 <div class="card-deck">
   <div class="card">
     <br>
@@ -52,7 +49,4 @@ order: 4
       </p>
     </div>
  </div>
-</div>
-
-
 </div>
