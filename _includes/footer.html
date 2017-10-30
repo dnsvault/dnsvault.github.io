@@ -1,55 +1,60 @@
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-3">
-        <ul class="contact-list list-unstyled">
+<footer class="footer fdb-block footer-large">
+    <div class="container">
+      <div class="row align-items-top text-center">
+        <div class="col-12 col-md-4 col-lg-3 text-md-left mt-5 mt-md-0">
+          <ul class="contact-list list-unstyled">
           <li>
             <a class="navbar-brand" href="{{ "/" | relative_url }}">
               <img src="/assets/images/logo.svg" class="logo"  style="width: 200px;" />
             </a>
             </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
         </ul>
-      </div>
-      <div class="col-2">
-        <ul class="list list-unstyled">
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-sm-left">
+          <h3><strong>Navigation</strong></h3>
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
+            {% if my_page.title %}
+              <a style="" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a><br>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 text-sm-left">
+          <h3><strong>Contact</strong></h3>
+          <p>No 29-2, Tingkat 2, Jalan Tukul N15/N, Seksyen 15, 40200 Shah Alam, Selangor, Malaysia.</p>
+            {% if site.email %}
+            <span><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}"> {{ site.email }}</a></span>
+            {% endif %}
+        </div>
+
+        <div class="col-12 col-lg-2 ml-auto text-lg-left mt-4 mt-lg-0">
+          <h3><strong>Follow Us</strong></h3>
+          <ul class="list list-unstyled">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
-        </ul>
-      </div>
-      <div class="col-3">
-        {% for path in page_paths %}
-          {% assign my_page = site.pages | where: "path", path | first %}
-          {% if my_page.title %}
-            <ul style="margin-top: -25px;">
-              <li style="list-style:none;">
-                <a style="" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              </li>
-            </ul>
+          {% if site.facebook_username %}
+          <li>
+            {% include icon-facebook.html username=site.facebook_username %}
+          </li>
           {% endif %}
-        {% endfor %}
+        </ul>
+        </div>
       </div>
-      <div class="col-4">
-        {% if site.author %}
-          {{ site.author | escape }}
-        {% else %}
-          {{ site.title | escape }}
-        {% endif %}<br>
-        {{ site.description | escape }}
+
+      <div class="row mt-3">
+        <div class="col text-center">
+          {{ site.description | escape }}
+        </div>
       </div>
     </div>
-
-  </div>
-
-</footer>
+  </footer>

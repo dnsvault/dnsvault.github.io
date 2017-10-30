@@ -10,7 +10,7 @@ order: 3
 
 <div class="card-deck">
   <div class="card">
-        <img class="card-img-top" src="/assets/images/distributors/rszrixs.png" alt="rixs" class="img-fluid w-75">
+        <img class="card-img-top" src="/assets/images/distributors/rixs.png" alt="rixs" class="img-fluid w-75">
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 15px;"><a href="http://www.rixs.my" target="_blank">RIXS TECHNOLOGY SDN BHD</a></h4></center>
       <p class="card-text" style="font-size: 15px;">

@@ -23,6 +23,7 @@ url: "dnsvault.net" # the base hostname & protocol for your site, e.g. http://ex
 
 twitter_username: dnsvault
 github_username:  dnsvault
+facebook_username:  dnsvault
 
 # Build settings
 markdown: kramdown
