@@ -71,7 +71,7 @@ order: 10
   </div>
 </div>
 <br>
-<div class="card-deck">
+<div class="card-deck w-75">
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
       <img class="pic" src="/assets/images/about/khairi.jpg" alt="">
@@ -115,21 +115,6 @@ order: 10
     <div class="card-body" style="text-align: center;">
       <h5 class="card-title">Fathi Abdul Rahim Abdullah</h5>
       <p class="card-text">App & Platform Engineer</p>
-    </div>
-  </div>
-  <div class="card" style="border: 0;">
-    <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/anis.jpg" alt="">
-      <div class="pic-overlay">
-          <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-          <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-          <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-      </div>
-    </div>
-    <div class="card-body" style="text-align: center;">
-      <h5 class="card-title">Anis Soraya Mohd Zain</h5>
-      <p class="card-text">DNSVault</p>
     </div>
   </div>
 </div>

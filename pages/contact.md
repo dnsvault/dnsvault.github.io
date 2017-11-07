@@ -29,7 +29,7 @@ order: 13
     <form>
       <div class="row">
         <div class="col">
-          <input type="text" class="form-control" placeholder="First name">
+          <input type="text" class="form-control" placeholder="First name" required="required">
         </div>
         <div class="col">
           <input type="text" class="form-control" placeholder="Last name">
@@ -37,20 +37,20 @@ order: 13
       </div>
       <div class="row mt-4">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Company Name">
+          <input type="text" class="form-control" placeholder="Company Name" required="required">
         </div>
       </div>
       <div class="row mt-4">
         <div class="col">
-          <input type="email" class="form-control" placeholder="Email">
+          <input type="email" class="form-control" placeholder="Email" required="required">
         </div>
       </div>
       <div class="row mt-4">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Phone">
+          <input type="text" class="form-control" placeholder="Phone" required="required">
         </div>
         <div class="col">
-          <input type="text" class="form-control" placeholder="Country">
+          <input type="text" class="form-control" placeholder="Country" required="required">
         </div>
       </div>
       <div class="row mt-4">
@@ -65,7 +65,7 @@ order: 13
       </div>
       <div class="row mt-4">
         <div class="col">
-          <textarea class="form-control" name="message" rows="5" placeholder="How can we help?"></textarea>
+          <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required="required"></textarea>
         </div>
       </div>
       <div class="row mt-4">
