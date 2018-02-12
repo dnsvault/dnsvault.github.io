@@ -31,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - bootstrap
+  - bootswatch
   - autoprefixer-rails
   - jekyll-assets
 exclude:
