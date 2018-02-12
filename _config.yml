@@ -30,6 +30,9 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - bootstrap
+  - autoprefixer-rails
+  - jekyll-assets
 exclude:
   - Gemfile
   - Gemfile.lock

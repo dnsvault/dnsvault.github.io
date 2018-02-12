@@ -1,16 +1,28 @@
 ---
-title: Products
-subtitle: Product Overview
-lead: Meet DNSVault Product Families
+title: Appliances
+subtitle: DNSVault Appliances
+lead: Secure DNS Managemnet Appliance
 layout: page
-permalink: "/products/"
+permalink: "/appliances/"
 published: true
-order: 1
 ---
 
-<h5>DNSVault is a DNS Appliance that have all the feature that we need to strengthen and protect our DNS. It was develop using the latest technology available today.</h5>
+<div class="card">
+  <div class="card-body">
+    <h3 class="card-title text-center">DNSVAULT APPLIANCE</h3>
+    <p>DNSVault is a DNS Appliance that have all the feature that we need to strengthen and protect our DNS. It was develop using the latest technology available today.</p>
 
-<br>
+    <ul>
+      <li>Solid and robust DNS management appliance with strong focus on security.</li>
+      <li>Built to deliver best performance and scalability yet cost effective.</li>
+      <li>For any business-critical needs with built-in high-availability function.</li>
+      <li>Multi-user DNS management with DNS monitoring and Reporting.</li>
+      <li>DNSSEC ready 4033,4034,4035 (DNSSECbis), 5155(NSEC3).</li>
+      <li>Microsoft Active Directory compatible DNS services.</li>
+    </ul>
+  </div>
+</div>
+
 <div class="card-deck">
   <div class="card">
     <img class="card-img-top img-thumbnail" data-src="holder.js/100px200?text=DNSVault 10R &bg=#212121&size=15" alt="100%x180" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">

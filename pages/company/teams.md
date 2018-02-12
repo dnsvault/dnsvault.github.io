@@ -5,13 +5,12 @@ lead: Meet DNSVault Team Members
 layout: page
 permalink: "/teams/"
 published: true
-order: 10
 ---
 
 <div class="card-deck">
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/amir.jpg" alt="">
+      <img class="pic" src="/assets/images/company/teams/amir.jpg" alt="">
       <div class="pic-overlay">
           <a href="" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -26,7 +25,7 @@ order: 10
   </div>
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/iman.jpg" alt="">
+      <img class="pic" src="/assets/images/company/teams/iman.jpg" alt="">
       <div class="pic-overlay">
           <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -41,7 +40,7 @@ order: 10
   </div>
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/hasyrein.jpg" alt="">
+      <img class="pic" src="/assets/images/company/teams/hasyrein.jpg" alt="">
       <div class="pic-overlay">
           <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -56,7 +55,7 @@ order: 10
   </div>
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/razi.jpg" alt="">
+      <img class="pic" src="/assets/images/company/teams/razi.jpg" alt="">
       <div class="pic-overlay">
           <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -74,7 +73,7 @@ order: 10
 <div class="card-deck w-75">
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/khairi.jpg" alt="">
+      <img class="pic" src="/assets/images/company/teams/khairi.jpg" alt="">
       <div class="pic-overlay">
           <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -89,7 +88,7 @@ order: 10
   </div>
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/yakob.png" alt="">
+      <img class="pic" src="/assets/images/company/teams/yakob.png" alt="">
       <div class="pic-overlay">
           <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -104,7 +103,7 @@ order: 10
   </div>
   <div class="card" style="border: 0;">
     <div class="pic-container pic-medium pic-circle mx-auto">
-      <img class="pic" src="/assets/images/about/fathi.jpg" alt="">
+      <img class="pic" src="/assets/images/company/teams/fathi.jpg" alt="">
       <div class="pic-overlay">
           <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a href="http://www.github.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>

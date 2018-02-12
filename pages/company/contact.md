@@ -5,7 +5,6 @@ lead: Feel Free to Contact Us
 layout: map
 permalink: "/contacts/"
 published: true
-order: 13
 ---
 
 <div class="row-100"></div>

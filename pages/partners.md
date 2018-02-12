@@ -5,12 +5,11 @@ lead: Meet our partners
 layout: page
 permalink: "/partners/"
 published: true
-order: 4
 ---
 
 <div class="card-deck">
   <div class="card">
-    <img class="card-img-top w-50" src="/assets/images/partners/csm.png" alt="csm">
+    <img class="card-img-top w-50" src="/assets/images/partnership/partners/csm.png" alt="csm">
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 30px;"><a href="http://cybersecurity.my/" target="_blank">CyberSecurity Malaysia</a></h4></center>
       <p class="card-text" style="font-size: 15px;">
@@ -31,7 +30,7 @@ order: 4
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid w-50" src="/assets/images/partners/rpzdb.png" alt="rpzdb">
+    <img class="card-img-top img-fluid w-50" src="/assets/images/partnership/partners/rpzdb.png" alt="rpzdb">
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 30px;"><a href="http://www.rpzdb.com" target="_blank">RPZ Database</a></h4></center>
       <p class="card-text" style="font-size: 15px;">
@@ -47,7 +46,7 @@ order: 4
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="/assets/images/partners/partner.png" alt="rpzdb" class="img-fluid w-50" >
+    <img class="card-img-top" src="/assets/images/partnership/partners/partner.png" alt="rpzdb" class="img-fluid w-50" >
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 30px;">Become our partner</h4></center>
       <p class="card-text" style="font-size: 15px;">

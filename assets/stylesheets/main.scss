@@ -14,7 +14,23 @@
 
 }
 
+
+// example override bootswatch variables
+$primary:         #0066ff;
+//$secondary:     #37474f;
+//$success:       #28b62c;
+//$info:          #03a9f4;
+//$warning:       #fbe42c;
+//$danger:        #ff4136;
+//$light:         #eeeeee;
+$dark:          #2A3138;
+// end example override
+
+@import "bootswatch/litera/variables";
 @import "bootstrap";
+@import "bootswatch/litera/bootswatch";
+@import "froala";
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -27,8 +43,12 @@ body {
   padding-top: 3.5rem;
   /* Margin bottom by footer height */
   margin-bottom: 450px;
-  font-family: 'square721_btroman';
+  font-family: 'square721_btroman' !important;
   background-color: #FAFAFA;
+}
+
+p {
+  font-family: 'square721_btroman' !important;
 }
 
 .jumbotron {
@@ -60,10 +80,23 @@ body {
 
 header.post-header, header.page-header {
     background: #fff;
-    height: 8rem;
-    padding: 35px 40px;
+    height: 18rem;
+    padding: 95px 80px;
     margin-bottom: 1rem;
     box-shadow: 0 1px 7px rgba(35, 35, 35, 0.12);
+    color: white;
+    text-align: center;
+}
+
+.bg-header{
+  background-image: url("/assets/images/header_bg.jpg") !important;
+  background-size: 100% auto !important;
+  background-position: right bottom !important; /*Positioning*/
+}
+
+.header-lead{
+  font-size: 1.32875rem;
+  font-weight: 300;
 }
 
 .footer {
@@ -201,4 +234,27 @@ img {
 
 }
 
-@import "froala";
+.circle {
+  display: block;
+  margin: 1.25em auto;
+  //margin:10px;
+    width:200px;
+    height:200px;
+    border-radius:100%;
+    text-align:center;
+    font-size: 24px;
+    overflow:hidden;
+    &.one-line {line-height:200px;}
+    &.multi-line {
+      padding-top:60px;
+      height:140px;
+    }
+    &.outline {
+
+      border-right: 10px #0066ff solid;
+      border-left: 10px grey solid;
+      border-bottom: 10px #0066ff solid;
+      border-top: 10px grey solid;
+    }
+}
+

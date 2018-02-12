@@ -5,7 +5,6 @@ lead: DNSVault Screenshot
 layout: page
 permalink: "/screenshots/"
 published: true
-order: 2
 ---
 
 <div id="screenshots" class="carousel slide bg-dark" data-ride="carousel" >

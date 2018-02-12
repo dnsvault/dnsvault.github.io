@@ -5,12 +5,11 @@ lead: Our Family of Distributors and Resellers
 layout: page
 permalink: "/distributors/"
 published: true
-order: 3
 ---
 
 <div class="card-deck">
   <div class="card">
-        <img class="card-img-top" src="/assets/images/distributors/rixs.png" alt="rixs" class="img-fluid w-75">
+        <img class="card-img-top" src="/assets/images/partnership/distributors/rixs.png" alt="rixs" class="img-fluid w-75">
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 15px;"><a href="http://www.rixs.my" target="_blank">RIXS TECHNOLOGY SDN BHD</a></h4></center>
       <p class="card-text" style="font-size: 15px;">
@@ -30,8 +29,8 @@ order: 3
     </div>
  </div>
 
-<div class="card">
-    <img class="card-img-top" src="/assets/images/distributors/examedia.png" alt="examedia" class="img-fluid w-75">
+  <div class="card">
+    <img class="card-img-top" src="/assets/images/partnership/distributors/examedia.png" alt="examedia" class="img-fluid w-75">
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 15px;"><a href="http://examedia.com.my" target="_blank">EXAMEDIA SOLUTIONS SDN BHD</a></h4></center>
       <p class="card-text" style="font-size: 15px;">
@@ -51,8 +50,8 @@ order: 3
     </div>
   </div>
 
-<div class="card">
-    <img class="card-img-top" src="/assets/images/distributors/localhost.png" alt="localhost" class="img-fluid w-75">
+  <div class="card">
+    <img class="card-img-top" src="/assets/images/partnership/distributors/localhost.png" alt="localhost" class="img-fluid w-75">
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 15px;"><a href="http://www.localhost.my" target="_blank">LOCALHOST SDN BHD</a></h4></center>
       <p class="card-text" style="font-size: 15px;">
@@ -73,8 +72,8 @@ order: 3
     </div>
   </div>
 
-<div class="card">
-    <img class="card-img-top" src="/assets/images/distributors/rafatech.png" alt="rafatech" class="img-fluid w-75">
+  <div class="card">
+    <img class="card-img-top" src="/assets/images/partnership/distributors/rafatech.png" alt="rafatech" class="img-fluid w-75">
     <div class="card-body">
       <center><h4 class="card-title" style="font-size: 15px;"><a href="http://www.rafatech.com.my/" target="_blank">RAFATECH SYSTEM SDN BHD</a></h4></center>
       <p class="card-text" style="font-size: 15px;">

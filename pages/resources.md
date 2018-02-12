@@ -5,7 +5,6 @@ lead: Downloads
 layout: page
 permalink: "/resources/"
 published: true
-order: 12
 ---
 
 <h4>Brochures</h4>
@@ -13,7 +12,7 @@ order: 12
   <div class="card" style="border-color: 1px solid red;">
     <div class="media">
       <div class="media-left pr-3 pl-3"><br>
-        <img class="card-img-top" src="/assets/images/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
+        <img class="card-img-top" src="/assets/images/solutions/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
       </div>
       <div class="media-body"><br>
         <a href="/assets/docs/dnsvault.pdf" target="_blank">DNSVault</a>
@@ -23,7 +22,7 @@ order: 12
   <div class="card" style="border-color: 1px solid red;">
     <div class="media">
       <div class="media-left pr-3 pl-3"><br>
-        <img class="card-img-top" src="/assets/images/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
+        <img class="card-img-top" src="/assets/images/solutions/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
       </div>
       <div class="media-body"><br>
         <a href="/assets/docs/dnsvaultcloudservice.pdf" target="_blank">DNSVault cloud</a>
@@ -37,7 +36,7 @@ order: 12
   <div class="card" style="border-color: 1px solid red;">
     <div class="media">
       <div class="media-left pr-3 pl-3"><br>
-        <img class="card-img-top" src="/assets/images/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
+        <img class="card-img-top" src="/assets/images/solutions/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
       </div>
       <div class="media-body"><br>
         <a href="/assets/docs/cases/dnsvault_bsn.pdf" target="_blank">BSN</a>
@@ -47,7 +46,7 @@ order: 12
   <div class="card" style="border-color: 1px solid red;">
     <div class="media">
       <div class="media-left pr-3 pl-3"><br>
-        <img class="card-img-top" src="/assets/images/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
+        <img class="card-img-top" src="/assets/images/solutions/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
       </div>
       <div class="media-body"><br>
         <a href="/assets/docs/cases/dnsvault_mykris.pdf" target="_blank">MYKRIS</a>
@@ -57,7 +56,7 @@ order: 12
   <div class="card" style="border-color: 1px solid red;">
     <div class="media">
       <div class="media-left pr-3 pl-3"><br>
-        <img class="card-img-top" src="/assets/images/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
+        <img class="card-img-top" src="/assets/images/solutions/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
       </div>
       <div class="media-body"><br>
         <a href="/assets/docs/cases/dnsvault_utp.pdf" target="_blank">UTP</a>
@@ -67,7 +66,7 @@ order: 12
   <div class="card" style="border-color: 1px solid red;">
     <div class="media">
       <div class="media-left pr-3 pl-3"><br>
-        <img src="/assets/images/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
+        <img src="/assets/images/solutions/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
       </div>
       <div class="media-body"><br>
         <a href="/assets/docs/cases/dnsvault_alamflora.pdf" target="_blank">ALAM FLORA</a>
@@ -77,7 +76,7 @@ order: 12
   <div class="card" style="border-color: 1px solid red;">
     <div class="media">
       <div class="media-left pr-3 pl-3"><br>
-          <img class="card-img-top" src="/assets/images/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
+          <img class="card-img-top" src="/assets/images/solutions/resources/pdf.png" width="32" height="32" class="img-fluid" alt="Rails3 Consultation & Training">
       </div>
       <div class="media-body"><br>
           <a href="/assets/docs/cases/dnsvault_kpkt.pdf" target="_blank">KPKT</a>

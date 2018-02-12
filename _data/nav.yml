@@ -1,0 +1,51 @@
+- title: "Solution"
+  subcategories:
+    - subtitle: "Screenshot"
+      subhref: "/screenshots/"
+
+- title: "Products"
+  subcategories:
+    - subtitle: "DNSVault Appliances"
+      subhref: "/appliances/"
+    - subtitle: "DNSVault Cloud"
+      subhref: "/clouds/"
+    - subtitle: "DNSVault Hybrid"
+      subhref: "/hybrid/"
+    - subtitle: "DNSVault Load Balancer"
+      subhref: "/load-balancer/"
+    - subtitle: "DNSVault RPZdb"
+      subhref: "/rpzdb/"
+    - subtitle: "DNSVault Analytic"
+      subhref: "/analytic/"
+    - subtitle: "DNSVault Intelligencee Threat Protection"
+      subhref: "/itp/"
+
+
+- title: "Partnership"
+  subcategories:
+    - subtitle: "Distributor"
+      subhref: "/distributors/"
+    - subtitle: "Partner"
+      subhref: "/partners/"
+    - subtitle: "Client"
+      subhref: "/clients/"
+
+- title: "Blog"
+  href: "/blogs/"
+
+- title: "For Developer"
+  href: "/developers/"
+
+- title: "Resources"
+  href: "/resources/"
+
+- title: "Company"
+  subcategories:
+    - subtitle: "About DNSVault"
+      subhref: "/about/"
+    - subtitle: "Culture"
+      subhref: "/cultures/"
+    - subtitle: "Team"
+      subhref: "/teams/"
+    - subtitle: "Contact Us"
+      subhref: "/contacts/"
