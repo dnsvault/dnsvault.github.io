@@ -7,7 +7,7 @@ permalink: /hybrid/
 published: true
 ---
 
-<h3 class="text-center"> Secure Centralized Management architecture </h3>
+<h3 class="text-center"> Manage complex workflow across Physical and Cloud deployments </h3>
 
 <div class="card mb-4">
   <div class="card-body">

@@ -10,8 +10,9 @@ published: true
 
 <div class="card-deck mb-4">
   <div class="card">
-    <img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/customer-trust.png" alt="customer-trust">
+
 		<div class="card-header text-center">
+      <img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/customer-trust.png" alt="customer-trust">
       Customer Trust
     </div>
     <div class="card-body">
@@ -20,8 +21,8 @@ published: true
 		</div>
   </div>
   <div class="card">
-		<img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/positive-mind.png" alt="positive-mind">
 		<div class="card-header text-center">
+    <img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/positive-mind.png" alt="positive-mind">
       Positive Mindset
     </div>
     <div class="card-body">
@@ -29,9 +30,10 @@ published: true
       <p class="card-text text-justify">DNSVault strives to instill those characteristics into all of our employees so we may continue progressing in this field. </p>
 		</div>
   </div>
+
   <div class="card">
-		<img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/r&d.png" alt="r&d">
 		<div class="card-header text-center">
+    <img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/r&d.png" alt="r&d">
       R&D
     </div>
     <div class="card-body">
@@ -40,11 +42,11 @@ published: true
 		</div>
   </div>
 </div>
-
-<div class="card-deck">
+<br>
+<div class="card-deck mt-4">
   <div class="card">
-		<img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/quality-assurance.png" alt="quality-assurance">
 		<div class="card-header text-center">
+      <img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/quality-assurance.png" alt="quality-assurance">
       Quality Assurance
     </div>
     <div class="card-body">
@@ -53,8 +55,8 @@ published: true
 		</div>
   </div>
   <div class="card">
-		<img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/design-identity.png" alt="design-identity">
 		<div class="card-header text-center">
+    <img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/design-identity.png" alt="design-identity">
       Design Identity
     </div>
     <div class="card-body">
@@ -63,8 +65,8 @@ published: true
 		</div>
   </div>
   <div class="card">
-		<img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/green-it.png" alt="green-it">
 		<div class="card-header text-center">
+    <img class="card-img" class="img-fluid w-25" src="/assets/images/company/culture/green-it.png" alt="green-it">
       Green IT Security
     </div>
     <div class="card-body">
