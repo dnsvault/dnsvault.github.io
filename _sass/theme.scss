@@ -1,0 +1,14 @@
+// example override bootswatch variables
+$primary:         #0066ff;
+//$secondary:     #37474f;
+//$success:       #28b62c;
+//$info:          #03a9f4;
+//$warning:       #fbe42c;
+//$danger:        #ff4136;
+//$light:         #eeeeee;
+$dark:          #2A3138;
+// end example override
+
+@import "bootswatch/litera/variables";
+@import "bootstrap";
+@import "bootswatch/litera/bootswatch";
