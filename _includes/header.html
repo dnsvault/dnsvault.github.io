@@ -12,8 +12,8 @@
     <ul class="navbar-nav mr-auto">
       {% for nav in site.data.nav %}
         {% if nav.subcategories != null %}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbar-dropdown-{{ nav.url }}" href="#">{{ nav.title }} </a>
+          <li class="nav-item dropdown-navheader">
+            <a class="nav-link dropdown-toggle" id="navbar-dropdown-{{ nav.url }}" href="{{ nav.href }}">{{ nav.title }} </a>
             <div class="dropdown-menu">
             {% for subcategory in nav.subcategories %}
               <a class="dropdown-item" href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
@@ -27,9 +27,18 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ nav.href }}">{{ nav.title }}</a>
           </li>
+
         {% endif %}
       {% endfor %}
     </ul>
   </div>
 </nav>
-
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    $(".dropdown-navheader").hover(
+        function() { $('.dropdown-menu', this).show();
+        },
+        function() { $('.dropdown-menu', this).hide();
+    });
+});
+</script>

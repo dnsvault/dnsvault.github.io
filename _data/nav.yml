@@ -1,9 +1,5 @@
-- title: "Solution"
-  subcategories:
-    - subtitle: "Screenshot"
-      subhref: "/screenshots/"
-
 - title: "Products"
+  href: "/products/"
   subcategories:
     - subtitle: "DNSVault Appliances"
       subhref: "/appliances/"
@@ -21,7 +17,7 @@
       subhref: "/itp/"
 
 
-- title: "Partnership"
+- title: "Partner"
   subcategories:
     - subtitle: "Distributor"
       subhref: "/distributors/"
@@ -43,8 +39,8 @@
   subcategories:
     - subtitle: "About DNSVault"
       subhref: "/about/"
-    - subtitle: "Culture"
-      subhref: "/cultures/"
+    - subtitle: "Awards & Events"
+      subhref: "/awards/"
     - subtitle: "Team"
       subhref: "/teams/"
     - subtitle: "Contact Us"
