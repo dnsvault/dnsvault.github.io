@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+jQuery(document).on("turbolinks:load", function(){
   $(".dropdown-navheader").hover(
       function() { $('.dropdown-menu', this).show();
       },
