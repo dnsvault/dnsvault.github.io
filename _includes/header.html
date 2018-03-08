@@ -13,7 +13,7 @@
       {% for nav in site.data.nav %}
         {% if nav.subcategories != null %}
           <li class="nav-item dropdown dropdown-navheader">
-            <a class="nav-link dropdown-toggle" id="navbar-dropdown-{{ nav.url }}" href="{{ nav.href }}">{{ nav.title }} </a>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbar-dropdown-{{ nav.url }}" href="{{ nav.href }}">{{ nav.title }} </a>
             <div class="dropdown-menu">
             {% for subcategory in nav.subcategories %}
               <a class="dropdown-item" href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
