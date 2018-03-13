@@ -13,7 +13,7 @@ $dark:          #2A3138;
 @import "twbs/bootstrap";
 @import "bootswatch";
 
-hr {
+hr.my-4 {
   max-width: 50px;
   border-width: 3px;
   border-color: #0066ff;
@@ -298,4 +298,12 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(0,102,255, 0.8) !important;
 }
 
+.header-1{
+  font-size: 2.5rem !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
 
+.header-2{
+  font-size: 2rem !important;
+  font-family: 'Open Sans', sans-serif !important;
+}

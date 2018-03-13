@@ -21,13 +21,7 @@
   subcategories:
     - subtitle: "Distributor"
       subhref: "/distributors/"
-    - subtitle: "Partner"
-      subhref: "/partners/"
-    - subtitle: "Client"
-      subhref: "/clients/"
 
-- title: "Blog"
-  href: "/blogs/"
 
 - title: "For Developer"
   href: "/developers/"
@@ -39,9 +33,13 @@
   subcategories:
     - subtitle: "About DNSVault"
       subhref: "/about/"
+    - subtitle: "Clients"
+      subhref: "/clients/"
     - subtitle: "Awards & Events"
       subhref: "/awards/"
     - subtitle: "Team"
       subhref: "/teams/"
+    - subtitle: "Partners"
+      subhref: "/partners/"
     - subtitle: "Contact Us"
       subhref: "/contacts/"
