@@ -1,176 +1,229 @@
----
-layout: home
-order: 0
----
-
-<header class="masthead text-center text-white d-flex">
-  <div class="container my-auto">
-    <p class="header-1">THROUGH OUR INDUSTRY EXPERTISE AND AWARD WINNING TECHNOLOGY</p>
-    <p class="header-2">DNSVault works to help you build a secure enterprise network.</p>
-    <img src="/assets/images/logo.svg" class="img-fluid w-50"/>
-    <p>
-      <a href="/contacts" class="btn btn-primary">Contact Us</a>
-      <a href="#" class="btn btn-secondary">Register Now</a>
-    </p>
-  </div>
-</header>
-
-<section class="bg-primary" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-heading text-white">We've got what you need!</h2>
-        <hr class="light my-4">
-        <p class="text-faded mb-4">Appliance that have all the feature that we need to strengthen and protect our DNS.</p>
-        <a class="btn btn-light btn-xl js-scroll-trigger" href="/products">Get Started!</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="services">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-12">
-        <h1>Overview</h1>
-      </div>
-    </div>
-    <div class="row text-left mt-5">
-      <div class="col-12 col-md-4">
-        <div class="row">
-          <div class="col-3">
-            <img alt="image" class="img-fluid" src="/assets/images/index/secure.png">
-          </div>
-          <div class="col-9">
-            <h3><strong>Secure</strong></h3>
-            <p>Secure web interface with built-in user authentication, automation, data validation and auto blacklist DNS attack.</p>
-          </div>
+<!DOCTYPE html>
+<html lang="en" class="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>DNSVault</title>
+		<!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="//code.jquery.com/jquery-1.11.3.min.js" data-turbolinks-track="true"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="//dnsvault.net/assets/favicon.png" />
+    </head>
+	
+    <style>
+        .svg-wrap {
+            height: 0;
+            padding-top: 20%;
+            position: relative;
+        }
+        .svg-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #particles-js canvas {
+            display: block;
+            vertical-align: bottom;
+        }
+        
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        
+        
+        #countdown {
+        }
+        
+    </style>
+	<body id="top" class="scrollspy">
+        <div id="particles-js"></div>
+        <!-- Pre Loader -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+            
         </div>
-      </div>
-
-      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-        <div class="row">
-          <div class="col-3">
-            <img alt="image" class="img-fluid" src="/assets/images/index/fast.png">
-          </div>
-          <div class="col-9">
-            <h3><strong>Fast and Efficient</strong></h3>
-            <p>Automatic fetch DNSKEY from children zone and simple DNSSEC zone signing with one click.</p>
-          </div>
+        
+        <!--Navigation-->
+        <div class="navbar-fixed">
+            <nav id="nav_f" class="default_color" role="navigation">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="//www.dnsvault.net" id="logo-container" target="_blank" class="brand-logo">
+                            <img src="images/logo-white.svg" alt="dnsvault" style="height: 60px">
+                        </a>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </div>
-
-      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-        <div class="row">
-          <div class="col-3">
-            <img alt="image" class="img-fluid" src="/assets/images/index/flexible.png">
-          </div>
-          <div class="col-9">
-            <h3><strong>Flexible</strong></h3>
-            <p>Support most DNS resource records, IPv4 and IPv6 records and secure dynamic DNS update.</p>
-          </div>
+        
+        <!--Hero-->
+        <div class="section no-pad-bot" id="">
+            <div class="container">
+                <br><br><br>
+                <div class="row">                
+                    <div class="col s12">                    
+                        <div class="svg-wrap">  
+                            <a href="#"> 
+                                <img src="images/logo.svg" alt="dnsvault" class="svg-content">
+                            </a>
+                        </div>
+                        <div id="countdown" class="canvas-wrap center">
+                            
+                        </div>
+                    </div>                    
+                </div>    
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="lead text-center">  </p>
+                    </div>
+                </div>
+            </div> 
         </div>
-      </div>
-    </div>
-
-    <div class="row text-left pt-3 pt-sm-4 pt-md-5">
-      <div class="col-12 col-md-4">
-        <div class="row">
-          <div class="col-3">
-            <img alt="image" class="img-fluid" src="/assets/images/index/scalable.png">
-          </div>
-          <div class="col-9">
-            <h3><strong>Scalable</strong></h3>
-            <p>Provide user with automated DNS zone serial numbers management, zone signing and DNSSEC key rollover.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-        <div class="row">
-          <div class="col-3">
-            <img alt="image" class="img-fluid" src="/assets/images/index/future.png">
-          </div>
-          <div class="col-9">
-            <h3><strong>Future Proof</strong></h3>
-            <p>Support user with DNS View, monitoring, reporting and multiuser DNS management.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-        <div class="row">
-          <div class="col-3">
-            <img alt="image" class="img-fluid" src="/assets/images/index/firewall.png">
-          </div>
-          <div class="col-9">
-            <h3><strong>DNS Firewall*</strong></h3>
-            <p>Protect user against online DNS-based malware by providing blacklist filtering.</p>
-            <p>* Only available in DNSVault Firewall version</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="bg-white text-dark">
-  <div class="container">
-    <h1 class="text-center">Security Features</h1>
-    <h4>DNS Firewall</h4>
-    <p class="text-justify">DNS Firewall protect the user against online DNS-based malware by providing blacklist filtering that prevent end user from reaching malware websites and block the communication between infected client to the command center. </p>
-    <hr>
-    <h4>Harden Firmware</h4>
-    <p class="text-justify">DNSVault software have been certified by Common Criteria EAL2, an international standard (ISO/IEC 15408) for computer security certification. Common Criteria provides assurance that the process of specification, implementation and evaluation of a computer security product has been conducted in a rigorous and standard and repeatable manner at a level that is commensurate with the target environment for use. </p>
-    <hr>
-    <h4>Build in Firewall</h4>
-    <p class="text-justify">DNSVault have its own  built in network protection on hostile networks without the need to setup  external firewall. </p>
-    <hr>
-    <h4>Auto Blacklist for DNS attack</h4>
-    <p class="text-justify">Auto Blacklist for DNS attack is to prevent end user from reaching malware site by providing blacklist filtering and block the communication between infected client to the command center in real time. </p>
-    <hr>
-    <h4>Response Rate Limiting</h4>
-    <p class="text-justify">RRL is an enhancement to implementations of the DNS protocol that can help mitigate DNS amplification attacks. </p>
-    <hr>
-    <h4>DNSSEC</h4>
-    <p class="text-justify">DNSSEC is the technology that was developed to among other things, protect against such attacks by digitally 'signing' data so you can be assured that the URL is valid. </p>
-    <hr>
-    <h4>Secure Zone Transfer using TSIG</h4>
-    <p class="text-justify">Authentication using source IP address alone is considered insecure. Transaction Signatures, or TSIG for short, add cryptographic signatures as a method of authenticating a DNS conversation. It uses a shared secret to establish trust between the communicating parties. </p>
-    <hr>
-    <h4>RPZDB</h4>
-    <p class="text-justify">RPZDB is a DNS blacklist system that take control over the network security with the new dimension that can  stop malware and pulverize attempt to send sensitive data to the master thief. </p>
-  </div>
-</section>
-
-<section class="bg-dark text-white">
-  <div class="container text-center">
-    <h2 class="mb-4">Download our Brochure!</h2>
-    <a class="btn btn-light btn-xl sr-button" href="/resources">Download Now!</a>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-heading">Let's Get In Touch!</h2>
-        <hr class="my-4">
-        <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 ml-auto text-center">
-        <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-        <p>+603 5523 4445 </p>
-      </div>
-      <div class="col-lg-4 mr-auto text-center">
-        <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-        <p>
-          <a href="mailto:your-email@your-domain.com">hello@dnsvault.my</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
+    </body> 
+    <script>
+    	particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+        
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-73216135-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        var ringer = {
+            countdown_to: "5/5/2016",
+            rings: {
+                'DAYS': { 
+                    s: 86400000, // mseconds in a day,
+                    max: 365
+                },
+                'HOURS': {
+                    s: 3600000, // mseconds per hour,
+                    max: 24
+                },
+                'MINUTES': {
+                    s: 60000, // mseconds per minute
+                    max: 60
+                },
+                'SECONDS': {
+                    s: 1000,
+                    max: 60
+                },
+                'MICROSEC': {
+                    s: 10,
+                    max: 100
+                }
+            },
+            r_count: 5,
+            r_spacing: 10, // px
+            r_size: 100, // px
+            r_thickness: 2, // px
+            update_interval: 11, // ms
+            
+            
+            init: function(){
+                
+                $r = ringer;
+                $r.cvs = document.createElement('canvas'); 
+                
+                $r.size = { 
+                    w: ($r.r_size + $r.r_thickness) * $r.r_count + ($r.r_spacing*($r.r_count-1)), 
+                    h: ($r.r_size + $r.r_thickness) 
+                };
+                $r.cvs.setAttribute('id',"countdown-ui");
+                $r.cvs.setAttribute('width',$r.size.w);           
+                $r.cvs.setAttribute('height',$r.size.h);
+                $r.ctx = $r.cvs.getContext('2d');
+                $("#countdown").append($r.cvs);
+                $r.cvs = $($r.cvs);    
+                $r.ctx.textAlign = 'center';
+                $r.actual_size = $r.r_size + $r.r_thickness;
+                $r.countdown_to_time = new Date($r.countdown_to).getTime();
+                $r.cvs.css({ width: $r.size.w+"px", height: $r.size.h+"px" });
+                $r.go();
+            },
+            ctx: null,
+            go: function(){
+                var idx=0;
+                
+                $r.time = (new Date().getTime()) - $r.countdown_to_time;
+                
+                
+                for(var r_key in $r.rings) $r.unit(idx++,r_key,$r.rings[r_key]);      
+                
+                setTimeout($r.go,$r.update_interval);
+            },
+            unit: function(idx,label,ring) {
+                var x,y, value, ring_secs = ring.s;
+                value = parseFloat($r.time/ring_secs);
+                $r.time-=Math.round(parseInt(value)) * ring_secs;
+                value = Math.abs(value);
+                
+                x = ($r.r_size*.5 + $r.r_thickness*.5);
+                x +=+(idx*($r.r_size+$r.r_spacing+$r.r_thickness));
+                y = $r.r_size*.5;
+                y += $r.r_thickness*.5;
+                
+                
+                // calculate arc end angle
+                var degrees = 360-(value / ring.max) * 360.0;
+                var endAngle = degrees * (Math.PI / 180);
+                
+                $r.ctx.save();
+                
+                $r.ctx.translate(x,y);
+                $r.ctx.clearRect($r.actual_size*-0.5,$r.actual_size*-0.5,$r.actual_size,$r.actual_size);
+                
+                // first circle
+                $r.ctx.strokeStyle = "rgba(128,128,128,0.2)";
+                $r.ctx.beginPath();
+                $r.ctx.arc(0,0,$r.r_size/2,0,2 * Math.PI, 2);
+                $r.ctx.lineWidth =$r.r_thickness;
+                $r.ctx.stroke();
+                
+                // second circle
+                $r.ctx.strokeStyle = "rgba(0, 102, 255, 0.9)";
+                $r.ctx.beginPath();
+                $r.ctx.arc(0,0,$r.r_size/2,0,endAngle, 1);
+                $r.ctx.lineWidth =$r.r_thickness;
+                $r.ctx.stroke();
+                
+                // label
+                $r.ctx.fillStyle = "#000000";
+                
+                $r.ctx.font = '12px Helvetica';
+                $r.ctx.fillText(label, 0, 23);
+                $r.ctx.fillText(label, 0, 23);   
+                
+                $r.ctx.font = 'bold 40px Helvetica';
+                $r.ctx.fillText(Math.floor(value), 0, 10);
+                
+                $r.ctx.restore();
+            }
+        }
+        
+        ringer.init();
+    </script>
+    
+</html> 
